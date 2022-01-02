@@ -1,13 +1,5 @@
 var rule = CSSRulePlugin.getRule("span:after");
 gsap.registerPlugin(ScrollTrigger);
-// gsap.defaults({ ease: "none" });
-
-// gsap.from('.anim1', {opacity: 0, duration: 1, y: -50, ease: "bounce.out", stagger: 0.5});
-// gsap.from('img', {duration:1, y:200, opacity: 0, delay: 0.4, ease: "bounce.out"});
-// gsap.to(rule, {cssRule: {scaleY: 0}, duration: 1});
-// gsap.fromTo('.rightBox',  {backgroundPosition: '50% 100%', opacity: 0}, {backgroundPosition: '0% 0%', opacity: 1, ease: "bounce.out", duration:1, delay: 0.3});
-
-// timeline way:
 
 //! strart animation
 
@@ -22,17 +14,9 @@ tl.from(".anim1", { opacity: 0, y: -50, stagger: 0.5 })
     { backgroundPosition: "0% 0%", opacity: 1, delay: 0.2 },
     "-=1"
   );
-// // .from("img", { y: 200, opacity: 0, delay: 0.4 }, "-=1.5");
-
-// document.getElementById("cta").addEventListener("click", () => {
-//   tl.reversed() ? tl.play() : tl.reverse();
-// });
-
-// default dla scrolla
 
 ScrollTrigger.defaults({
   toggleActions: "restart pause pause pause",
-  // scroller: "body",
 });
 
 //KARTY
@@ -48,13 +32,13 @@ cards.forEach((card) => {
       opacity: 1,
       stagger: 0.3,
       duration: 0.3,
-      // rotation: 360,
+
       scrollTrigger: {
         trigger: "#sekcja3",
         start: "top 20%",
-        // end: "bottom 100%",
+
         end: "center, -10%",
-        markers: true,
+
         scrub: true,
       },
     }
@@ -81,7 +65,6 @@ gsap.fromTo(
       start: "top 120%",
       end: "bottom 100%",
       scrub: true,
-      // markers: true,
     },
   }
 );
@@ -103,7 +86,6 @@ gsap.fromTo(
       start: "top 120%",
       end: "bottom 100%",
       scrub: true,
-      // markers: true,
     },
   }
 );
@@ -126,7 +108,6 @@ gsap.fromTo(
       start: "top 120%",
       end: "bottom 80%",
       scrub: true,
-      // markers: true,
     },
   }
 );
@@ -147,7 +128,6 @@ gsap.fromTo(
       start: "top 120%",
       end: "bottom 80%",
       scrub: true,
-      // markers: true,
     },
   }
 );
@@ -169,10 +149,9 @@ gsap.fromTo(
     scrollTrigger: {
       trigger: "#sekcja3",
       start: "top 80%",
-      // end: "bottom 120%",
+
       end: "center 120%",
       scrub: true,
-      // markers: true,
     },
   }
 );
@@ -192,10 +171,9 @@ gsap.fromTo(
     scrollTrigger: {
       trigger: "#sekcja3",
       start: "top 80%",
-      // end: "bottom 120%",
+
       end: "center 120%",
       scrub: true,
-      // markers: true,
     },
   }
 );
@@ -313,12 +291,12 @@ grid5header.forEach((element) => {
       opacity: 1,
       stagger: 0.3,
       duration: 1,
-      // rotation: 360,
+
       scrollTrigger: {
         trigger: ".grid5__left",
         start: "top 80%",
         end: "bottom 120%",
-        // markers: true,
+
         scrub: true,
       },
     }
@@ -326,8 +304,6 @@ grid5header.forEach((element) => {
 });
 
 const items = document.querySelectorAll(".grid5__item");
-
-// console.log("items", items);
 
 items.forEach((element) => {
   gsap.fromTo(
@@ -338,12 +314,12 @@ items.forEach((element) => {
       opacity: 1,
       stagger: 1,
       duration: 1,
-      // rotation: 360,
+
       scrollTrigger: {
         trigger: ".grid5__left",
         start: "top 80%",
         end: "bottom 120%",
-        // markers: true,
+
         scrub: true,
       },
     }
@@ -368,43 +344,8 @@ gsap.fromTo(
       trigger: ".grid5__right",
       start: "top 80%",
       end: "bottom 120%",
-      // markers: true,
+
       scrub: true,
     },
   }
 );
-
-// gsap.fromTo(
-//   ".mask__title__box",
-//   {
-//     opacity: 0,
-//   },
-
-//   {
-//     // y: "-=50%",
-//     opacity: 1,
-//     duration: 0.5,
-//     scrollTrigger: {
-//       trigger: "#sekcja3",
-//       start: "top 40%",
-//       end: "bottom 80%",
-//       scrub: true,
-//       // markers: true,
-//     },
-//   }
-// );
-
-//kwadraty;
-
-gsap.to(".square", {
-  scrollTrigger: "#sekcja2",
-  duration: 1,
-  x: 1000,
-  rotation: 360,
-});
-gsap.to(".square2", {
-  scrollTrigger: "#sekcja3",
-  duration: 1,
-  x: 1000,
-  rotation: 360,
-});
