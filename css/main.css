@@ -49,14 +49,11 @@
 body {
   display: flex;
   flex-direction: column;
-  /* overflow-y: scroll;
-  scroll-snap-type: y mandatory; */
-  background-image: url("/images/overbridge.jpg");
+
+  background-image: url("../images/overbridge.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-
-  /* background-color: var(--grey600); */
 }
 
 main {
@@ -66,7 +63,7 @@ main {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  /* background-color: #f2f2f2; */
+
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
@@ -94,7 +91,7 @@ nav {
   align-items: center;
   height: 100%;
   width: 80%;
-  /* background-color: brown; */
+
   z-index: 500;
 }
 
@@ -106,9 +103,6 @@ nav {
 
   .nav__container {
     width: 90%;
-
-    /* top: 0px; */
-    /* background-color: brown; */
   }
 }
 
@@ -142,24 +136,20 @@ nav {
 }
 
 .icon__burger {
-  background-image: url("/images/burger-yellow.svg");
+  background-image: url("../images/burger-yellow.svg");
   width: 20px;
   height: 20px;
   display: none;
-  /* background-color: chartreuse; */
 }
 
 .icon__close {
-  background-image: url("/images/close-yellow.svg");
+  background-image: url("../images/close-yellow.svg");
   width: 20px;
   height: 20px;
   display: none;
-
-  /* background-color: chartreuse; */
 }
 
 .mobile__menu {
-  /* display: none; */
   position: fixed;
   width: 50%;
   height: 100vh;
@@ -214,7 +204,6 @@ nav {
 .mobile__menu--hidden {
   -webkit-transform: translateX(-200%);
   transform: translateX(-200%);
-  /* display: none; */
 }
 
 h1 {
@@ -239,16 +228,10 @@ span:after {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: #f2f2f2; */
+
   z-index: 1;
   transform-origin: 100% 0;
 }
-
-/* button {
-  -webkit-box-shadow: 8px 8px 24px 0px rgba(224, 224, 224, 1);
-  -moz-box-shadow: 8px 8px 24px 0px rgba(224, 224, 224, 1);
-  box-shadow: 8px 8px 24px 0px rgba(224, 224, 224, 1);
-} */
 
 .rightBox {
   width: 100%;
@@ -256,8 +239,7 @@ span:after {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/images/Digitakt_Above_background_crop.jpg");
-  /* background-color: rgb(207, 207, 207); */
+  background-image: url("../images/Digitakt_Above_background_crop.jpg");
 }
 
 .special {
@@ -268,8 +250,6 @@ span:after {
 }
 
 .leftBox {
-  /* background-color: #dadada; */
-  /* background-color: #f2f2f2; */
   width: 80%;
 }
 
@@ -282,7 +262,6 @@ span:after {
 @media screen and (max-width: 1000px) {
   main {
     height: 100%;
-    /* margin-bottom: 10rem; */
   }
 
   .container {
@@ -300,7 +279,7 @@ span:after {
 #sekcja1 {
   width: 100%;
   height: 100vh;
-  /* background-color: #7bd87b; */
+
   overflow: hidden;
 }
 
@@ -315,12 +294,12 @@ span:after {
   background-color: black;
   height: 100vh;
   width: 100%;
-  background-image: url("/images/Digitakt_Recorder.jpg");
+  background-image: url("../images/Digitakt_Recorder.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  /* position: relative; */
+
   overflow: hidden;
 }
 .grid1__right {
@@ -332,12 +311,11 @@ span:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* overflow: hidden; */
 }
 
 .grid1__right__box {
   width: 60%;
-  /* background-color: brown; */
+
   z-index: 100;
   margin-bottom: 6rem;
 }
@@ -347,8 +325,6 @@ span:after {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 10px;
-
-  /* position: relative; */
 }
 
 .grid1__right h2 {
@@ -377,13 +353,13 @@ span:after {
 
   .grid1__right {
     height: auto;
-    /* height: 50vh; */
+
     padding: 4rem 0;
   }
 
   .grid1__right__box {
     width: 80%;
-    /* background-color: brown; */
+
     z-index: 100;
     margin-bottom: 0;
   }
@@ -397,7 +373,7 @@ span:after {
   background-color: black;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+
   justify-content: center;
   overflow: hidden;
 }
@@ -423,7 +399,7 @@ span:after {
   background-color: black;
   height: 100vh;
   width: 100%;
-  background-image: url("/images/Digitakt_Sequencer.jpg");
+  background-image: url("../images/Digitakt_Sequencer.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -432,7 +408,7 @@ span:after {
 
 .grid2__left__box {
   width: 60%;
-  /* background-color: brown; */
+
   margin-bottom: 6rem;
 }
 
@@ -441,8 +417,6 @@ span:after {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 10px;
-
-  /* position: relative; */
 }
 
 .grid2__left h2 {
@@ -471,13 +445,12 @@ span:after {
 
   .grid2__left__box {
     width: 80%;
-    /* background-color: brown; */
+
     z-index: 100;
     margin-bottom: 0;
   }
 
   .grid2__left {
-    /* height: 50vh; */
     overflow: hidden;
     height: auto;
     padding: 4rem 0;
@@ -489,10 +462,7 @@ span:after {
 #sekcja3 {
   width: 100%;
   height: 100vh;
-  /* background-image: url("/images/overbridge.jpg"); */
-  /* background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
+
   overflow-x: hidden;
 }
 
@@ -547,7 +517,6 @@ span:after {
   gap: 60px;
   width: 100%;
   margin-top: 4rem;
-  /* background-color: brown; */
 }
 
 @media screen and (max-width: 900px) {
@@ -562,7 +531,6 @@ span:after {
 
   #sekcja3 {
     height: auto;
-    /* padding: 6rem 0; */
   }
 
   .mask__container {
@@ -572,9 +540,6 @@ span:after {
 }
 
 .mask__cards__card {
-  /* background-color: var(--grey_light); */
-  /* background-color: var(--primary700); */
-
   opacity: 1;
   display: flex;
   flex-direction: column;
@@ -594,7 +559,7 @@ span:after {
   height: 60px;
   width: 60px;
   margin-right: 2rem;
-  /* background-color: var(--primary700); */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -603,7 +568,6 @@ span:after {
 
 .card__header h3 {
   color: var(--primary300);
-  /* margin-bottom: 2rem; */
 }
 
 .card__content p {
@@ -625,7 +589,6 @@ span:after {
 }
 
 .grid4__left {
-  /* background-color: grey; */
   height: 100vh;
   width: 100%;
   text-align: left;
@@ -638,7 +601,6 @@ span:after {
 .grid4__left__box {
   width: 60%;
   margin-bottom: 10rem;
-  /* background-color: brown; */
 }
 
 .grid4__left h1 {
@@ -646,8 +608,6 @@ span:after {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 10px;
-
-  /* position: relative; */
 }
 
 .grid4__left h2 {
@@ -662,13 +622,12 @@ span:after {
 }
 
 .grid4__right {
-  /* background-color: rgb(163, 163, 163); */
   height: 100vh;
   width: 100%;
 }
 
 .grid4__right__image {
-  background-image: url("/images/Digitakt_IO_1920x1280.jpg");
+  background-image: url("../images/Digitakt_IO_1920x1280.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -680,7 +639,7 @@ span:after {
   left: 100px;
 }
 .grid4__right__image2 {
-  background-image: url("/images/Digitakt_Modulation_FX_1920x1280.jpg");
+  background-image: url("../images/Digitakt_Modulation_FX_1920x1280.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -712,7 +671,6 @@ span:after {
   .grid4__left__box {
     width: 80%;
     margin-bottom: 0;
-    /* background-color: brown; */
   }
 
   #sekcja4 {
@@ -752,7 +710,6 @@ span:after {
 }
 
 .grid5__left {
-  /* background-color: grey; */
   height: 100vh;
   width: 100%;
   text-align: left;
@@ -764,7 +721,6 @@ span:after {
 
 .grid5__left__box {
   width: 60%;
-  /* background-color: brown; */
 }
 
 .grid5__left h1 {
@@ -772,8 +728,6 @@ span:after {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 10px;
-
-  /* position: relative; */
 }
 
 .grid5__left h2 {
@@ -797,7 +751,7 @@ span:after {
 }
 
 .grid5__left__box__image {
-  background-image: url("/images/Digitakt-angled-accessories.jpg");
+  background-image: url("../images/Digitakt-angled-accessories.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -807,7 +761,6 @@ span:after {
 }
 
 .grid5__right {
-  /* background-color: rgb(163, 163, 163); */
   height: 100vh;
   width: 100%;
   background-color: var(--grey50);
@@ -841,7 +794,6 @@ span:after {
 .grid5__right__formBox__icon {
   height: 60px;
   width: 60px;
-  /* background-color: var(--grey600); */
 }
 
 .grid5__right__formBox__description {
@@ -915,15 +867,6 @@ footer {
   background-color: var(--grey900);
 }
 
-/* .footer__container {
-  grid-template-columns: 1fr 3fr;
-  display: grid;
-  width: 80%;
-  height: 400px;
-
-  margin: 4rem auto;
-} */
-
 .footer__container {
   display: flex;
   flex: row;
@@ -986,12 +929,6 @@ footer {
   margin-left: -1rem;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .footer__container__right {
-    gap: 2rem;
-  }
-} */
-
 @media screen and (max-width: 1200px) {
   .footer__container {
     display: grid;
@@ -1007,11 +944,6 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  /* .footer__container {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
-
   .footer__container__right {
     display: grid;
     grid-template-columns: 1fr;
@@ -1041,34 +973,6 @@ footer {
   width: 50%;
 }
 
-/* #sekcja-text {
-  width: 100%;
-  height: 100vh;
-  background-color: #e9e9e9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#sekcja-text-2 {
-  width: 100%;
-  height: 100vh;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#sekcja-text-3 {
-  width: 100%;
-  height: 100vh;
-  background-color: #e9e9e9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
 .text-container {
   width: 50%;
   text-align: center;
@@ -1081,24 +985,6 @@ footer {
   width: 50%;
   text-align: center;
 }
-
-/* #sekcja2 {
-  width: 100%;
-  height: 100vh;
-  background-color: #cccccc;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
-/* #sekcja3 {
-  width: 100%;
-  height: 100vh;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 
 .square {
   width: 100px;
