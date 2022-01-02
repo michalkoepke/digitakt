@@ -822,7 +822,7 @@ span:after {
   margin: 1rem 0;
   border: 1px solid var(--grey300);
   border-radius: 3px;
-  background-color: var(--primary300);
+  background-color: var(--primary700);
   color: black;
   font-weight: 500;
   font-size: 1rem;
@@ -831,7 +831,8 @@ span:after {
 }
 
 .newsletter button:hover {
-  background-color: var(--primary700);
+  background-color: var(--primary500);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1000px) {
