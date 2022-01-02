@@ -67,7 +67,7 @@ main {
   width: 100%;
   height: 100vh;
   /* background-color: #f2f2f2; */
-  background-image: url("/images/Hero-bg-01.jpg");
+  background-image: url("images/Hero-bg-01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
