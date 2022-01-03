@@ -76,12 +76,6 @@ main {
   overflow-x: hidden;
 }
 
-/* #home {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
-
 .content {
   background: transparent;
 }
@@ -912,7 +906,6 @@ footer {
   flex: row;
   justify-content: space-between;
   width: 80%;
-  /* height: 400px; */
 
   margin: 8rem auto;
 }
@@ -923,7 +916,6 @@ footer {
   justify-content: start;
   align-items: start;
   max-width: 400px;
-  /* background-color: aqua; */
 }
 
 .footer__container__left {

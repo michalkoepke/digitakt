@@ -16,5 +16,3 @@ const menuToggle = () => {
 
 iconToggle();
 menuToggle();
-
-// console.log("navbar-test: fired");
