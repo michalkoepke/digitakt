@@ -12,7 +12,7 @@ tl.from(".anim1", { opacity: 0, y: -50, stagger: 0.5 })
     ".rightBox",
     { backgroundPosition: "50% -100%", opacity: 0 },
     { backgroundPosition: "0% 0%", opacity: 1, delay: 0.2 },
-    "-=1"
+    "-=2"
   );
 
 ScrollTrigger.defaults({
@@ -37,7 +37,7 @@ cards.forEach((card) => {
         trigger: "#sekcja3",
         start: "top 20%",
 
-        end: "center, -10%",
+        end: "center, 0%",
 
         scrub: true,
       },
