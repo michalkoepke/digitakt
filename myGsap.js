@@ -19,7 +19,7 @@ ScrollTrigger.defaults({
   toggleActions: "restart pause pause pause",
 });
 
-//KARTY
+//cards
 
 const cards = document.querySelectorAll(".mask__cards__card");
 
@@ -45,7 +45,7 @@ cards.forEach((card) => {
   );
 });
 
-// ZDJECIA SAMPLERA W SEKCJI 1 I 2
+// sampler photos secion 1 & 2
 
 gsap.fromTo(
   ".grid1__left",
@@ -90,7 +90,7 @@ gsap.fromTo(
   }
 );
 
-// TEKSTY W SEKCJACH 1 i 2
+// text in sections 1 & 2
 
 gsap.fromTo(
   ".grid1__right__box",
@@ -132,7 +132,7 @@ gsap.fromTo(
   }
 );
 
-//sekcja 3 TYTUL
+//section3 title
 
 gsap.fromTo(
   ".maintitle",
@@ -178,7 +178,7 @@ gsap.fromTo(
   }
 );
 
-//sekcja 4
+//section4
 
 gsap.fromTo(
   ".section4__maintitle",
@@ -233,7 +233,7 @@ gsap.fromTo(
   }
 );
 
-//sekcja 4 obrazki po prawej
+//section4 images in right box
 
 gsap.fromTo(
   ".grid4__right__image",
@@ -276,11 +276,9 @@ gsap.fromTo(
   }
 );
 
-//sekcja 5
+//section 5
 
 const grid5header = document.querySelectorAll(".grid5__header");
-
-console.log("header: ", grid5header);
 
 grid5header.forEach((element) => {
   gsap.fromTo(
