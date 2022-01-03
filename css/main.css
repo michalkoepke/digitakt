@@ -658,7 +658,6 @@ span:after {
 .grid4__right {
   height: 100vh;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .grid4__right__image {
@@ -717,6 +716,7 @@ span:after {
     height: auto;
     padding-top: 0;
     padding-bottom: 4rem;
+    overflow-x: hidden;
   }
 
   .grid4__right__image2 {
