@@ -69,15 +69,34 @@ main {
   width: 100%;
   height: 100vh;
 
-  background-image: url("../images/hero3.jpg");
+  background-image: url("../images/factoryDigi1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    background-image: url("../images/factoryDigi1mobile.jpg");
+  }
 }
 
 .content {
   background: transparent;
+}
+
+.content h1 {
+  color: var(--primary300);
+}
+
+.content h2 {
+  color: var(--grey100);
+}
+
+.content p {
+  color: var(--grey50);
 }
 
 nav {
@@ -625,7 +644,11 @@ span:after {
 #sekcja4 {
   width: 100%;
   height: 100vh;
-  background-color: var(--grey100);
+  /* background-color: var(--grey100); */
+  background-image: url("../images/factory-light2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .grid4 {

@@ -13,6 +13,13 @@ tl.from(".anim1", { opacity: 0, y: -50, stagger: 0.5 })
     { backgroundPosition: "50% -100%", opacity: 0 },
     { backgroundPosition: "0% 0%", opacity: 1, delay: 0.2 },
     "-=2"
+  )
+
+  .fromTo(
+    "#home",
+    { backgroundSize: "150% 150%" },
+    { backgroundSize: "100% 100%", duration: 7 },
+    "-=5"
   );
 
 ScrollTrigger.defaults({
