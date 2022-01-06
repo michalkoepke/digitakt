@@ -138,6 +138,12 @@ nav {
   height: 100%;
 }
 
+.nav__logo__box__inner {
+  width: 200px;
+  height: 100%;
+  padding-top: 1.5rem;
+}
+
 .nav__links {
   display: flex;
   align-items: center;
@@ -373,6 +379,7 @@ span:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .grid1__right__box {
@@ -456,7 +463,7 @@ span:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .grid2__right {
@@ -938,9 +945,11 @@ span:after {
 /* footer */
 
 footer {
+  position: relative;
   height: auto;
   width: 100%;
   background-color: var(--grey900);
+  overflow-x: hidden;
 }
 
 .footer__container {
@@ -1024,59 +1033,4 @@ footer {
     margin-top: 4rem;
     gap: 2rem;
   }
-}
-
-/* sekcja special */
-
-.sekcjaSpecial {
-  width: 100%;
-  height: 100vh;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.sekcjaSpecial:nth-child(2n) {
-  background-color: #e9e9e9;
-}
-
-.textAnim {
-  width: 50%;
-}
-
-.text-container {
-  width: 50%;
-  text-align: center;
-}
-.text-container-2 {
-  width: 50%;
-  text-align: center;
-}
-.text-container-3 {
-  width: 50%;
-  text-align: center;
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: #f2f2f2;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary500);
-}
-.square2 {
-  width: 100px;
-  height: 100px;
-  background-color: #f2f2f2;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary500);
 }

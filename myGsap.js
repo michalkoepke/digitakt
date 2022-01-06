@@ -57,7 +57,7 @@ cards.forEach((card) => {
 gsap.fromTo(
   ".grid1__left",
   {
-    y: "-=250",
+    y: "-=350",
     opacity: 0,
   },
 
@@ -79,7 +79,7 @@ gsap.fromTo(
 gsap.fromTo(
   ".grid2__right",
   {
-    y: "-=250",
+    y: "-=350",
     opacity: 0,
   },
 
@@ -102,18 +102,18 @@ gsap.fromTo(
 gsap.fromTo(
   ".grid1__right__box",
   {
-    y: "+=250",
+    x: "+=250",
     opacity: 0,
   },
 
   {
-    y: 0,
+    x: 0,
     opacity: 1,
     duration: 0.5,
     scrollTrigger: {
       trigger: ".grid1__right",
       start: "top 120%",
-      end: "bottom 80%",
+      end: "bottom 110%",
       scrub: true,
     },
   }
@@ -122,18 +122,18 @@ gsap.fromTo(
 gsap.fromTo(
   ".grid2__left__box",
   {
-    y: "+=250",
+    x: "-=250",
     opacity: 0,
   },
 
   {
-    y: 0,
+    x: 0,
     opacity: 1,
     duration: 0.5,
     scrollTrigger: {
       trigger: ".grid2__left",
       start: "top 120%",
-      end: "bottom 80%",
+      end: "bottom 110%",
       scrub: true,
     },
   }
